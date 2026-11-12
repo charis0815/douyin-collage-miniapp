@@ -1,0 +1,38 @@
+.gitignore
+  h_97f93f6255ebd6 1-16
+README.md
+  h_97f93f6255ebd6 1-29
+app.css
+  h_97f93f6255ebd6 1-170
+design.json
+  h_97f93f6255ebd6 1-21
+editor.html
+  h_97f93f6255ebd6 1-18
+home.html
+  h_97f93f6255ebd6 1-35
+icons.svg
+  h_97f93f6255ebd6 1-15
+result.html
+  h_97f93f6255ebd6 1-18
+saving.html
+  h_97f93f6255ebd6 1-13
+template-detail.html
+  h_97f93f6255ebd6 1-23
+tokens.css
+  h_97f93f6255ebd6 1-38
+upload-error.html
+  h_97f93f6255ebd6 1-18
+upload.html
+  h_97f93f6255ebd6 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "769161ab7e10adb9633c11af4a671b3e4ae1e603",
+  "prompts": {},
+  "humans": {
+    "h_97f93f6255ebd6": {
+      "author": "lvcuili <1339726175@qq.com>"
+    }
+  }
+}
