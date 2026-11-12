@@ -1,0 +1,32 @@
+README.md
+  h_97f93f6255ebd6 3,5,7-14,20-27,31,35-39,41
+annotation.html
+  h_97f93f6255ebd6 1-13
+app.css
+  h_97f93f6255ebd6 170-217
+birthday-editor.html
+  h_97f93f6255ebd6 1-13
+birthday-settings.html
+  h_97f93f6255ebd6 1-15
+birthday-upload.html
+  h_97f93f6255ebd6 1-17
+design.json
+  h_97f93f6255ebd6 6-7,9-17,20-21,23-24,26-31
+home.html
+  h_97f93f6255ebd6 4-6,9,11-19,21,23-28,31
+layout-library.html
+  h_97f93f6255ebd6 1-21
+my-templates.html
+  h_97f93f6255ebd6 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0dee0285b0b66ecca31621e9af30e62cba881b36",
+  "prompts": {},
+  "humans": {
+    "h_97f93f6255ebd6": {
+      "author": "lvcuili <1339726175@qq.com>"
+    }
+  }
+}
