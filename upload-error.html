@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="dsh-design" content="miniprogram"><title>上传失败 · 拼贴一下</title>
+  <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="mp-top"><div class="mp-status"><span>9:41</span><span class="mp-status__icons"><span class="signal">•••</span><span>5G</span><span class="battery"></span></span></div><div class="mp-nav"><a class="mp-back" href="upload.html" aria-label="返回选择照片"><svg class="icon"><use href="icons.svg#arrow-left"></use></svg></a><h1>选择照片</h1></div></header>
+  <main class="mp-page mp-page--sub">
+    <div class="error-card"><svg class="icon error-card__icon"><use href="icons.svg#alert"></use></svg><h2>这张照片没有上传成功</h2><p>网络连接刚刚中断，已经选好的 2 张照片仍然保留。</p><div class="error-detail"><strong>IMG_2054.jpg</strong><br>文件大小 24.8 MB，超过单张 20 MB 限制</div></div>
+    <div class="section-head"><h2>怎么处理</h2></div>
+    <div style="display:grid;gap:12px;color:var(--color-muted);font-size:13px"><div style="display:flex;gap:10px"><b style="color:var(--color-ink)">01</b><span>换一张小于 20 MB 的照片</span></div><div style="display:flex;gap:10px"><b style="color:var(--color-ink)">02</b><span>或先在相册里压缩后再上传</span></div></div>
+    <div class="divider"></div><p style="margin:0;color:var(--color-muted);font-size:12px">不需要重新选择前两张照片。修正后点击重试，会从第 3 格继续。</p>
+  </main>
+  <div class="mp-actionbar"><a class="btn btn--secondary" href="upload.html">换一张</a><a class="btn btn--primary" href="upload.html">重试上传</a></div>
+</body>
+</html>

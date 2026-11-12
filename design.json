@@ -1,0 +1,21 @@
+{
+  "name": "douyin-collage-miniapp",
+  "title": "拼贴一下 · 抖音小程序原型",
+  "kind": "miniprogram",
+  "size": "375x812",
+  "style": "可爱卡通",
+  "source": "独立原型项目",
+  "screens": [
+    { "id": "home", "file": "home.html", "state": "模板浏览" },
+    { "id": "template-detail", "file": "template-detail.html", "state": "模板详情" },
+    { "id": "upload", "file": "upload.html", "state": "选图未完成" },
+    { "id": "editor", "file": "editor.html", "state": "编辑拼贴" },
+    { "id": "saving", "file": "saving.html", "state": "保存中" },
+    { "id": "result", "file": "result.html", "state": "保存完成" },
+    { "id": "upload-error", "file": "upload-error.html", "state": "上传失败恢复" }
+  ],
+  "assets": [
+    "assets/ai-photo-fashion-03.jpg",
+    "assets/ai-photo-fashion-05.jpg"
+  ]
+}

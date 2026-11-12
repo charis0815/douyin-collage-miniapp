@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="dsh-design" content="miniprogram"><title>选择照片 · 拼贴一下</title>
+  <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="mp-top"><div class="mp-status"><span>9:41</span><span class="mp-status__icons"><span class="signal">•••</span><span>5G</span><span class="battery"></span></span></div><div class="mp-nav"><a class="mp-back" href="template-detail.html" aria-label="返回模板详情"><svg class="icon"><use href="icons.svg#arrow-left"></use></svg></a><h1>选择照片</h1></div></header>
+  <main class="mp-page mp-page--sub">
+    <div class="upload-intro"><h2>放入你的 3 张照片</h2><p>先选照片，再进入编辑。你可以随时更换。</p></div>
+    <a class="upload-box" href="upload-error.html"><span class="upload-box__icon"><svg class="icon"><use href="icons.svg#upload"></use></svg></span><strong>从相册选择</strong><span>支持 JPG、PNG，单张不超过 20 MB</span></a>
+    <div class="upload-list"><div class="upload-list__head"><strong>已选择 2 / 3</strong><span>还差 1 张</span></div>
+      <div class="photo-row"><div class="photo-row__thumb"><img src="assets/ai-photo-fashion-05.jpg" alt="已选择的穿搭照片"></div><div><strong>IMG_2048.jpg</strong><span>已放入第 1 格</span></div><a class="photo-row__remove" href="upload.html">移除</a></div>
+      <div class="photo-row"><div class="photo-row__thumb"><img src="assets/ai-photo-fashion-03.jpg" alt="已选择的街头照片"></div><div><strong>IMG_2051.jpg</strong><span>已放入第 2 格</span></div><a class="photo-row__remove" href="upload.html">移除</a></div>
+    </div>
+    <div class="divider"></div>
+    <div style="display:flex;gap:8px;align-items:flex-start;color:var(--color-muted);font-size:12px"><svg class="icon" style="color:var(--color-accent);flex:0 0 auto"><use href="icons.svg#check"></use></svg><span>照片只用于这次拼贴，保存完成后可在编辑页继续调整。</span></div>
+  </main>
+  <div class="mp-actionbar"><a class="btn btn--secondary" href="template-detail.html">换模板</a><a class="btn btn--disabled" href="editor.html">还差 1 张照片</a></div>
+</body>
+</html>

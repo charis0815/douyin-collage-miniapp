@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editor and IDE files
+.idea/
+.vscode/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.cache/
+
+# Temporary files
+*.log
+*.tmp
