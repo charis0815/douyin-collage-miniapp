@@ -1,35 +1,33 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="dsh-design" content="miniprogram">
-  <title>发现模板 · 拼贴一下</title>
-  <link rel="stylesheet" href="tokens.css">
-  <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="dsh-design" content="miniprogram"><title>模板库 · 拼贴一下</title>
+  <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <header class="mp-top">
-    <div class="mp-status"><span>9:41</span><span class="mp-status__icons"><span class="signal">•••</span><span>5G</span><span class="battery"></span></span></div>
-    <div class="mp-nav custom"><span class="mp-nav__brand">拼贴<em>一下</em></span></div>
-  </header>
+  <header class="mp-top"><div class="mp-status"><span>9:41</span><span class="mp-status__icons"><span class="signal">•••</span><span>5G</span><span class="battery"></span></span></div><div class="mp-nav custom"><span class="mp-nav__brand">拼贴<em>一下</em></span></div></header>
   <main class="mp-page">
-    <div class="gallery-hero">
-      <div class="gallery-hero__copy"><p>NEW THIS WEEK · 12 个新模板</p><h1>今天想把<br>什么拼在一起？</h1><a href="template-detail.html">逛逛热门模板 <span>→</span></a></div>
-      <div class="gallery-hero__art"><img src="assets/ai-photo-scenery-08.jpg" alt="湖面和木船的模板示意"><span class="sticker sticker--hero">✦</span></div>
+    <div class="gallery-nav" style="margin-top:19px"><h2>模板库</h2><a href="my-templates.html">我的模板 <span>→</span></a></div>
+    <div class="search-bar"><svg class="icon"><use href="icons.svg#search"></use></svg><span>搜索生日、日常、旅行模板</span></div>
+    <div class="filter-row" aria-label="模板分类"><button class="filter-chip on">全部</button><button class="filter-chip">日常</button><button class="filter-chip">生日</button><button class="filter-chip">旅行</button><button class="filter-chip">节日</button></div>
+    <div class="reference-note"><svg class="icon"><use href="icons.svg#grid"></use></svg><span>先选版式，再选主题。生日模板还可以选择月份和日历版本。</span></div>
+    <div class="gallery-nav"><h2>按版式挑</h2><a href="layout-library.html">查看全部 <span>→</span></a></div>
+    <div class="format-picker">
+      <a class="format-card on" href="layout-library.html"><div class="format-card__preview format-card__preview--3"><span></span><span></span><span></span></div><div class="format-card__body"><strong>三宫格</strong><span>3 张照片</span></div></a>
+      <a class="format-card" href="layout-library.html"><div class="format-card__preview format-card__preview--4"><span></span><span></span><span></span><span></span></div><div class="format-card__body"><strong>四宫格</strong><span>4 张照片</span></div></a>
+      <a class="format-card" href="layout-library.html"><div class="format-card__preview format-card__preview--9"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="format-card__body"><strong>九宫格</strong><span>9 张照片</span></div></a>
     </div>
-    <div class="search-bar"><svg class="icon"><use href="icons.svg#search"></use></svg><span>搜索旅行、生日、日常</span></div>
-    <div class="filter-row" aria-label="模板分类"><button class="filter-chip on">推荐</button><button class="filter-chip">旅行</button><button class="filter-chip">日记</button><button class="filter-chip">生日</button><button class="filter-chip">自拍</button></div>
-    <div class="gallery-nav"><h2>为你推荐</h2><a href="template-detail.html">全部模板 <span>→</span></a></div>
+    <div class="gallery-nav"><h2>生日模板</h2><a href="birthday-settings.html">按月份筛选 <span>→</span></a></div>
     <div class="masonry">
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual"><span class="masonry-card__badge">3 张 · 3:4</span><img src="assets/ai-photo-fashion-05.jpg" alt="蓝色留白拼贴模板"></div><div class="masonry-card__meta"><strong>蓝色留白</strong><span>日常记录</span></div></a>
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual masonry-card__visual--note"><span class="masonry-card__badge">4 张 · 1:1</span></div><div class="masonry-card__meta"><strong>小小日记</strong><span>文字拼贴</span></div></a>
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual masonry-card__visual--grid"><span></span><span></span><span style="grid-column:1 / span 2;margin-top:-4px;background:#B7D7F6"></span><span style="grid-column:2;grid-row:2;background:#F29ABD"></span></div><div class="masonry-card__meta"><strong>四格心情</strong><span>2–4 张</span></div></a>
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual"><span class="masonry-card__badge">2 张 · 4:5</span><img src="assets/ai-photo-drink-07.jpg" alt="抹茶拿铁主题拼贴模板"></div><div class="masonry-card__meta"><strong>春日抹茶</strong><span>生活方式</span></div></a>
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual"><span class="masonry-card__badge">5 张 · 9:16</span><img src="assets/ai-photo-scenery-07.jpg" alt="沙漠旅行主题拼贴模板"></div><div class="masonry-card__meta"><strong>去远方</strong><span>旅行记录</span></div></a>
-      <a class="masonry-card" href="template-detail.html"><div class="masonry-card__visual masonry-card__visual--note" style="background:#FFF0C8"><span class="masonry-card__badge">3 张 · 4:3</span><span style="display:block;color:#C43B70;font-size:var(--text-xl);font-weight:800;line-height:1.05">GOOD<br>DAY<br>CLUB</span></div><div class="masonry-card__meta"><strong>好天气俱乐部</strong><span>明亮日常</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">九宫格 · 日历</span><img src="assets/templates/birthday-calendar-01.png" alt="生日月历九宫格模板"></div><div class="masonry-card__meta"><strong>生日九宫格 · 月历</strong><span>选择月份</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">三宫格 · 白金</span><img src="assets/templates/birthday-white-gold-01.png" alt="白金生日三宫格模板"></div><div class="masonry-card__meta"><strong>白金生日倒数</strong><span>温柔纪念</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">四宫格 · 黑金</span><img src="assets/templates/birthday-black-gold-01.png" alt="黑金生日四宫格模板"></div><div class="masonry-card__meta"><strong>黑金千金</strong><span>生日派对</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">九宫格 · 棕色</span><img src="assets/templates/brown-nine-grid-01.png" alt="复古棕色九宫格模板"></div><div class="masonry-card__meta"><strong>复古相册</strong><span>怀旧主题</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">四宫格 · 黑红</span><img src="assets/templates/black-red-01.png" alt="黑红四宫格模板"></div><div class="masonry-card__meta"><strong>黑红派对</strong><span>酷感主题</span></div></a>
+      <a class="masonry-card" href="birthday-settings.html"><div class="masonry-card__visual"><span class="masonry-card__badge">四宫格 · 豹纹</span><img src="assets/templates/leopard-four-grid-01.png" alt="豹纹四宫格模板"></div><div class="masonry-card__meta"><strong>Wild Birthday</strong><span>大胆主题</span></div></a>
     </div>
   </main>
-  <nav class="mp-tabbar" aria-label="底部导航"><a class="on" href="home.html"><svg class="icon"><use href="icons.svg#grid"></use></svg><span>发现</span></a><a href="home.html"><svg class="icon"><use href="icons.svg#bookmark"></use></svg><span>收藏</span></a><a href="upload.html"><svg class="icon"><use href="icons.svg#plus"></use></svg><span>创作</span></a><a href="home.html"><svg class="icon"><use href="icons.svg#user"></use></svg><span>我的</span></a></nav>
+  <nav class="mp-tabbar" aria-label="底部导航"><a class="on" href="home.html"><svg class="icon"><use href="icons.svg#grid"></use></svg><span>模板</span></a><a href="my-templates.html"><svg class="icon"><use href="icons.svg#bookmark"></use></svg><span>收藏</span></a><a href="upload.html"><svg class="icon"><use href="icons.svg#plus"></use></svg><span>创作</span></a><a href="my-templates.html"><svg class="icon"><use href="icons.svg#user"></use></svg><span>我的</span></a></nav>
 </body>
 </html>

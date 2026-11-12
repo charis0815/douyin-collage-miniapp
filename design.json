@@ -3,19 +3,31 @@
   "title": "拼贴一下 · 抖音小程序原型",
   "kind": "miniprogram",
   "size": "375x812",
-  "style": "可爱卡通",
-  "source": "独立原型项目",
+  "style": "可爱卡通 + 真实模板画廊",
+  "source": "独立原型项目，模板参考来自用户提供的截图",
   "screens": [
-    { "id": "home", "file": "home.html", "state": "模板浏览" },
-    { "id": "template-detail", "file": "template-detail.html", "state": "模板详情" },
-    { "id": "upload", "file": "upload.html", "state": "选图未完成" },
-    { "id": "editor", "file": "editor.html", "state": "编辑拼贴" },
+    { "id": "home", "file": "home.html", "state": "模板库与分类" },
+    { "id": "layout-library", "file": "layout-library.html", "state": "三宫格 / 四宫格 / 九宫格" },
+    { "id": "birthday-settings", "file": "birthday-settings.html", "state": "生日月份、日历与主题" },
+    { "id": "birthday-upload", "file": "birthday-upload.html", "state": "九宫格上传 9 张照片" },
+    { "id": "birthday-editor", "file": "birthday-editor.html", "state": "九宫格编辑" },
+    { "id": "annotation", "file": "annotation.html", "state": "手绘和文字标注" },
+    { "id": "template-detail", "file": "template-detail.html", "state": "模板成片预览" },
+    { "id": "upload", "file": "upload.html", "state": "普通模板选图" },
+    { "id": "editor", "file": "editor.html", "state": "普通模板编辑" },
     { "id": "saving", "file": "saving.html", "state": "保存中" },
     { "id": "result", "file": "result.html", "state": "保存完成" },
-    { "id": "upload-error", "file": "upload-error.html", "state": "上传失败恢复" }
+    { "id": "upload-error", "file": "upload-error.html", "state": "上传失败恢复" },
+    { "id": "my-templates", "file": "my-templates.html", "state": "我的模板" }
   ],
+  "templateTypes": ["三宫格", "四宫格", "九宫格", "生日月历"],
+  "themes": ["白金日历", "黑金千金", "黑红派对", "复古棕色", "豹纹"],
   "assets": [
-    "assets/ai-photo-fashion-03.jpg",
-    "assets/ai-photo-fashion-05.jpg"
+    "assets/templates/birthday-white-gold-01.png",
+    "assets/templates/birthday-calendar-01.png",
+    "assets/templates/birthday-black-gold-01.png",
+    "assets/templates/black-red-01.png",
+    "assets/templates/brown-nine-grid-01.png",
+    "assets/templates/leopard-four-grid-01.png"
   ]
 }
